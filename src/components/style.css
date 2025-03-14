@@ -1,0 +1,49 @@
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px 20px;
+    width: 100%;
+}
+
+.logo h1 {
+    font-size: 50px;
+    position: relative;
+    top: 10px;
+}
+
+.logo hr {
+    width: 100%;
+}
+
+.toggle-group {
+    direction: rtl;
+}
+
+.toDos {
+    width: 100%;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+
+.addTodo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
